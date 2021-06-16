@@ -28,8 +28,8 @@ public class PruebaEstudiantes {
         double nota = 0;
         double porcentajeM = 0;
         double porcentajeF = 0;
-        int hombres=0;
-        int mujeres=0;
+        int hombres = 0;
+        int mujeres = 0;
         double promedio = 0;
         double encimaM = 0;
         double encimaF = 0;
@@ -61,7 +61,7 @@ public class PruebaEstudiantes {
             estu[i] = new Estudiantes(nombre, genero, nota);
         }
         porcentajeM = (porcentajeM / estu.length) * 100;
-        porcentajeF= (porcentajeF / estu.length) * 100;
+        porcentajeF = (porcentajeF / estu.length) * 100;
         promedio = promedio / estu.length;
 
         for (int i = 0; i < estu.length; i++) {
@@ -77,8 +77,8 @@ public class PruebaEstudiantes {
         System.out.printf("El promedio del curso es: %.2f\n", promedio);
         System.out.printf("El porcentaje de hombres del curso es: %.2f\n", porcentajeM);
         System.out.printf("El porcentaje de mujeres del curso es: %.2f\n", porcentajeF);
-        System.out.printf("El porcentaje de hombres encma del promedio es: %.2f\n", (encimaM/hombres)*100);
-        System.out.printf("El porcentaje de mujeres encma del promedio es: %.2f\n", (encimaF/mujeres)*100);
+        System.out.printf("El porcentaje de hombres encma del promedio es: %.2f\n", (encimaM / hombres) * 100);
+        System.out.printf("El porcentaje de mujeres encma del promedio es: %.2f\n", (encimaF / mujeres) * 100);
     }
 
 }

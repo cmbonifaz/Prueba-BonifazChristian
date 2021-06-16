@@ -23,7 +23,6 @@ public class Estudiantes {
     public double getNota() {
         return nota;
     }
-
     @Override
     public String toString() {
         return this.nombre + "   " + this.genero + "   " + this.nota;
